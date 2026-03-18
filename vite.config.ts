@@ -17,14 +17,16 @@ export default defineConfig({
         start_url: "/",
         icons: [
           {
-            src: "/launcher-icon-192x192.png",
+            src: "/launchericon-192x192.png",
             sizes: "192x192",
             type: "image/png",
+            purpose: "any maskable",
           },
           {
-            src: "/launcher-icon-512x512.png",
+            src: "/launchericon-512x512.png",
             sizes: "512x512",
             type: "image/png",
+            purpose: "any maskable",
           },
         ],
       },
