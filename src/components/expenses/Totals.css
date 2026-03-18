@@ -1,0 +1,59 @@
+.totals-container {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.calculate-btn {
+  padding: 12px 18px;
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.2s ease;
+}
+
+.calculate-btn:hover {
+  transform: translateY(-2px);
+}
+
+.totals-grid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.total-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+
+.total-card:hover {
+  transform: translateY(-4px);
+}
+
+.total-card h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.total-card p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #4a90e2;
+}
+
+.overall {
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+  border: 2px solid #4a90e2;
+}
